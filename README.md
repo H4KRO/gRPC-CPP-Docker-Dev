@@ -8,6 +8,7 @@ Build, start and go into with VSCode (Remote-Container module needed).
 
 <code>
 docker build -t iotenv:beta .
+
 docker run iotenv
 </code>
 
@@ -19,7 +20,9 @@ Clone https://github.com/H4KRO/gRPC-CPP-Docker-Dev, create build/local, then :
 
 <code>
 CMake ../..
+
 make -j8 all
+
 ./calculator
 </code>
 
