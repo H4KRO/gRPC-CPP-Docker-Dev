@@ -7,9 +7,9 @@ Build, start and go into with VSCode (Remote-Container module needed).
 ## Build
 
 <code>
-docker build -t iotenv:beta .
+docker build -t iotenv:latest .
 
-docker run iotenv
+docker run --rm -d -t --name iotenv iotenv:latest
 </code>
 
 ## Example
