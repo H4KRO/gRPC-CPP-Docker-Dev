@@ -14,7 +14,7 @@ docker run iotenv
 
 ## Example
 
-Clone https://github.com/H4KRO/gRPC-CPP-Docker-Dev, create build/local, then :
+Clone https://github.com/npclaudiu/grpc-cpp-docker, create build/local, then :
 
 ### Build and run
 
